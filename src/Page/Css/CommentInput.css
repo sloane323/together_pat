@@ -69,9 +69,6 @@ button {
 
 }
 
-.ckeckreview :active {
-  background-color: yellow;
-}
 
 .bookingtitle {
   font-family: 'MICEGothic Bold';
@@ -82,3 +79,4 @@ button {
 .side_menu li {
   border: none;
 }
+

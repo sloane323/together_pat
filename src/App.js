@@ -23,7 +23,6 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <Menu />
     <div>
           <Routes> 
           <Route path='/' element={<About />}> </Route>

@@ -1,4 +1,10 @@
-import { Routes, Route, Link} from 'react-router-dom';
+
+
+import "./Css/Menu.css";
+
+
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import { BiInfoCircle } from "react-icons/bi";
 import { BiHomeHeart } from "react-icons/bi";
@@ -6,13 +12,16 @@ import { BiDoorOpen } from "react-icons/bi";
 import { BiBookmarkHeart } from "react-icons/bi";
 import { BiConversation } from "react-icons/bi";
 
-import "./Css/Menu.css";
-
 
 
 const Menu = () => {
-    return ( 
-        <div>
+    return (  <div id = "titledisplay" >
+
+       <div id = "titlename"> <span className ="e">너와나의 </span> 
+       <span className ="highlight">  특별한동행 </span>  </div> 
+
+       <div id = "menu-hwa">
+         <div id = "menu-hwa21">           
              <div  id ="menu-hd">
 
 <div className="grid-it1">
@@ -61,10 +70,17 @@ const Menu = () => {
         <p>후기작성</p> </div>
         </div> 
 </div>
-
+</div>
 
     </div> 
-        </div>
+
+
+
+
+
+
+    </div></div>
+       
      );
 }
  
