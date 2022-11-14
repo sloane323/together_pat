@@ -97,8 +97,10 @@ const sendReview = () => {
 
 const input_list = lists.map((list) => (
   <li key={list.id} >
-  <div  id="wrtinb">{list.name} :  {list.text}  </div>  <div id="wrtin"> 작성일: {clickdate} <br></br>  </div> 
+  <div  id="wrtinb">{list.name} :  {list.text}  </div>  
   <div> {list.star} </div>
+  <div id="wrtin"> 작성일: {clickdate} <br></br>  </div> 
+
   <div>  <button  onClick={() => removeList(list.id)} > X </button> </div>
   </li>
   
@@ -111,7 +113,7 @@ const removeList = (id) => {
 };
 
 
-  return (<div>
+  return (<div className='reviewbig'>
 
 <form onSubmit={submit}>
     <label>이름</label>
@@ -143,7 +145,7 @@ const removeList = (id) => {
           value={note}  onChange={onChange}  ref={inputnote} id="textbox"
            className='name_box' style={{ height: "100px"}} required />
     <br></br>
-        <button type="submit">확인</button>
+        <button type="submit" className='ckeckreview'>리뷰남기기</button>
       </form>
 
 

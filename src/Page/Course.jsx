@@ -6,7 +6,7 @@ import Line from '../Componment/Line';
 
 const Course = () => {
     return ( 
-        <div>
+        <div className='coursebig'>
 
         <div>
           <h3> 프로그램 안내 </h3>
@@ -15,7 +15,7 @@ const Course = () => {
 
         <div id = "Linecenter">
       <div id = "bigLine"> 
-      <div className="smLine-1" > 1. 부산역 출발지 환승 	</div> 
+      <div className="smLine-1" ><br></br> <br></br> <br></br> 1. 부산역 출발지 환승 	</div> 
 
  
       <div className="smLine" > → </div> 
@@ -51,8 +51,8 @@ const Course = () => {
       <div className="smLine18" >←</div>
       <div className="smLine19" >12. 광복로 </div>
       <div className="smLine20" >←</div>
-       </div>
-       </div>
+      
+       </div> <br></br> <br></br> </div> 
 
 
 
@@ -65,13 +65,13 @@ const Course = () => {
         <Link to='./Program3' style={{ textDecoration: 'none' }} > 03 광안리 해수욕장  |   </Link> 
         <Link to='./Program4' style={{ textDecoration: 'none' }} > 04 설채현 수의사 강의  |   </Link> 
         <Link to='./Program5' style={{ textDecoration: 'none' }} > 05 센텀시티(영화의전당)</Link> 
-        <Outlet />
+        <Outlet /><br></br> <br></br><br></br> 
 
       </div>
 
 
-<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-        </div> 
+      <br></br> <br></br><br></br> <br></br> <br></br><br></br> <br></br> <br></br><br></br> 
+</div>   
                     
      );
 }

@@ -35,3 +35,46 @@ ul li{
     padding-left:0px;
 }
 
+
+ul{
+  text-align:left;
+  margin: 2px;
+}
+
+li {
+  font-family: 'MICEGothic Bold';
+  display:inline-block;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid  #89CFD3;
+  color: #5b9ca0;
+}
+
+button {
+  font-family: 'MICEGothic Bold';
+  background-color: #89CFD3;
+  border: none;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+.reviewbig {
+  font-family: 'MICEGothic Bold';
+  color: #89CFD3;
+}
+
+
+.ckeckreview {
+  padding: 15px;
+
+}
+
+.ckeckreview :active {
+  background-color: yellow;
+}
+
+.bookingtitle {
+  font-family: 'MICEGothic Bold';
+  color: #89CFD3;
+}

@@ -23,25 +23,25 @@ const About = () => {
                  <img className="mainsub" alt="main" src="https://i.imgur.com/P9ZzpXc.png" />  
                 </div></div>
 
-                <div><div><h1>Title </h1> </div>
+                <div className="mainsub2"><div><h1> 우리의 가/족 입니다.  </h1> </div>
 
             <div className= "imgbanne4">
             반려견(유기견)을 입양해 키우는 사람들을 위한 <br></br>
-            특별한 여행 ‘너와 나의 특별한 동행’
+            특별한 여행 ‘너와 나의 특별한 동행’<br></br> <br></br> 
             
-            <div className="mainim" ><img className="mainim1" alt="main-sm" src="https://i.imgur.com/ZXA6zur.png"/> </div> 
+            <div className="mainim" ><img className="mainim1" alt="main-sm" src="https://i.imgur.com/ZXA6zur.png"/> <br></br>
+            
+            </div> 
 
-                <img className="mainbanner1" alt="main2" src="./image/img2.jpg" width= '500px'/>
-                <img className="mainbanner1" alt="main2" src="./image/img21.jpg" width= '500px'/>
-                <img className="mainbanner1" alt="main2" src="./image/img3.jpg"width= '500px' />
-                <img className="mainbanner1" alt="main2" src="./image/img31.jpg"width= '500px' />
+            
             </div>    </div>
 
 
 
-            <div className="imgbanne5_01" style={{background:'url(https://lh3.googleusercontent.com/IbimRMPXGnn2ivAS9MKUPTLlaEkRO2pQbLvnAzX3lWtLqMlngvQiE8merEiFjqyCUu1_5YxeoZgq7x3EPolvsgiFSYxqAqs9K1JC6smhRa3t5Qkd0k3RQWtALiEr79-0cTMXiGvAGDFs3E5WWC_iK2ziFhGODAKCBTEKvdoI6nPL0Zma4lJuCBoGUt5JCuyg4nLzvvYCEEpMkxSIlkZ97mU8LHqHoCqBcB4a5zhwQfa8GBhiCCguKiftjMMwoddFjG7jwQL-uhNDLhHlsTz4R8oXegQhThvH0QKHooBwEC-ehWJiloOsb3u_Vm0iNDYjfd2oYKkTHU_o30HLyAff0fdyeWZ_yZ4v49PPxvPzcntEHeCbZBKdaomh6VZ6DgVCwOUOHsHh4MR6DWaib62b9S66IAX6i9SC3u9f3HUzwrO6N6grUQuJkBO3o_pYiAsPVAGFmvE4MDKGFgTp5x8_Crca10SOeVBIFcOBGgY2rLoh0x3XPv6wfy5v48Y8bu7ufDCNe7vorhXQsjPb1caIlxplaHzmBEzbYIx3C6T-bejlzoyeM4cg8My5lFVPPGbiAM3BOw3Zzk1IYoYferrpxMTjkwK-3r_OZj_ihmAd10jn3t5BazjSIVpU7f0ITth97oD-cKbxfsC5i6MRdv2q-hc2F-lxyjrATt76fL0cY7Cue8GrqGOwN1599SWjl2KhkczVQ99Brneh-7NwmZjGSqWPFUx4XmhodR75Jg_MgOk4QZhmMiMiJrosyiTmNG0LBNJ8RzuM64cbFeo6moiGvJsNliJjbvQYXeZOzgQX6rL-bmjrw5H8MkzuBAnK2d3CCzkZ5aEkQ9ntip2ilQwK7dIOQyGzCgc9YQ89J99Yn-k-n0YgmwsuQWkVG_Dnb5gXOEeSz9ROiLZNy62WvcoFccnVDhO6cWZGLRCD6IZ-PtxfxqGTwhFS9BH4KHqBrbPtDTV3K4CJxdTwJlEtJQ=w1519-h572-no?authuser=0)'
+            <div className="imgbanne5_01" style={{background:'url(https://cdn.wadiz.kr/ft/images/green001/2019/1204/20191204180915130_14.png/wadiz/format/jpg/quality/80/optimize)'
             , backgroundAttachment:'fixed' , backgroundrepeat:'round'  }} >
                 <div className= "imgbanne5">
+                <br></br><br></br><br></br>
                 #사지마세요_입양하세요_잃어버리지도마세요 <br></br>
                 #부산시_반려동물_복지문화센터<br></br>
                 #051_853_1335 <br></br>

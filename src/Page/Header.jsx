@@ -28,15 +28,13 @@ const Header = () => {
     return (
         <div id ="headerbig"  >
 
-       <div id = "titlename"> <span className ="e">너와나의 </span> 
-       <span className ="highlight">  특별한동행 </span>  </div>
+        <div id = "titlename"> <span className ="e">너와나의 </span> 
+       <span className ="highlight">  특별한동행 </span>  </div> 
             
 
        <div id = "icon-hd"> 
 
-      <div className="modalbig"> 
-      <div className="modalpa">
-      <button> <SlShare size="25" color="#89CFD3" /></button> </div>
+      <div className="modalbig">
              
       <div className="modalpa2" > 
           <input type="checkbox" id="check_box" />

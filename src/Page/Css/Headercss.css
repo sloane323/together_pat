@@ -25,7 +25,7 @@
     display: flex;
     align-self: center;
     grid-column: 1fr;
-    font-size: 25px;
+    font-size: 30px;
     position: relative;
 }
 
@@ -40,7 +40,7 @@
 
 #titlename{cursor: pointer;}
 #titlename:hover .highlight:after{
-  width:100%;
+  width: 155px;
 }
 
 #titlename:hover .highlight {
@@ -54,7 +54,7 @@
 .highlight:after{
   content:"";
   width: 0;
-  height: 30px;
+  height:  40px;
   display: inline-block;
   background: #89CFD3;
   color: white;
@@ -62,11 +62,11 @@
   bottom:0;
   left:0;
   z-index:-1;
-  transition: 0.35s all;
+  transition: 0.5s all;
 }
 
 .e {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #icon-hd1 {
@@ -89,3 +89,7 @@
     border: none;
 }
 
+.mainsub2{
+    font-family: 'MICEGothic normal';
+color:#89CFD3;
+}
