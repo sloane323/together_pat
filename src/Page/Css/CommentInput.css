@@ -46,7 +46,6 @@ li {
   display:inline-block;
   margin: 5px;
   padding: 5px;
-  border: 1px solid  #89CFD3;
   color: #5b9ca0;
 }
 
@@ -77,4 +76,9 @@ button {
 .bookingtitle {
   font-family: 'MICEGothic Bold';
   color: #89CFD3;
+}
+
+
+.side_menu li {
+  border: none;
 }
