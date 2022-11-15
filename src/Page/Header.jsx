@@ -91,7 +91,7 @@ const Header = () => {
 
 <div className="sideh-menu">
 <div className="sideh-menu-1">
-<NavLink exact to='/' activeStyle={activeStyle}> Home </NavLink>
+<NavLink exact to='/' style={{ textDecoration: 'none'}} activeStyle={activeStyle}> Home </NavLink>
 
 <NavLink to="/Info"  activeStyle={activeStyle} ><div className="sideh-text1">   <span> Introduce </span> <br></br> </div></NavLink>
 <NavLink to="/Course" style={{ textDecoration: 'none'}} activeStyle={activeStyle} ><div className="sideh-text2" >  <span> Caurse </span> <br></br> </div></NavLink>
