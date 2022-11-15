@@ -1,0 +1,28 @@
+.info_net {
+    font-family: 'Manse';
+font-size: 1em;
+text-align: left;
+    color: #89CFD3;
+    margin-left:20vw;
+}
+
+  .info_com {
+    grid-column:1fr;
+    font-family: 'MICEGothic Bold';
+    font-size: 1vw;
+    text-align: left;
+    margin-left:20vw;
+    color: black;
+  }
+
+  .useimginfo{
+    display:inline-block;
+    grid-column:1fr;
+    left: -100vw;
+  }
+
+.coursebig{
+  font-family: 'MICEGothic Bold';
+    font-size: 1vw;
+}
+

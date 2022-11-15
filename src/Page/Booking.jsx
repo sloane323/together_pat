@@ -7,7 +7,7 @@ const Booking = () => {
  
     return ( 
         <div>
-           <h1> 예약하기</h1> <br></br>
+           <h1 className='bookingtitle'> 예약하기</h1> <br></br>
             <div> <People /> </div>
 
 
